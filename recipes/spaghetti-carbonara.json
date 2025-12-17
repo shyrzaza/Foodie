@@ -1,0 +1,21 @@
+{
+  "name": "Spaghetti Carbonara",
+  "ingredients": [
+    "1 potato",
+    "200g spaghetti",
+    "100g pancetta",
+    "2 large eggs",
+    "50g pecorino cheese",
+    "50g parmesan",
+    "Black pepper",
+    "Salt"
+  ],
+  "instructions": [
+    "Boil the spaghetti.",
+    "Fry the pancetta.",
+    "Beat the eggs and mix with cheese.",
+    "Combine everything off the heat.",
+    "Season and serve."
+  ],
+  "id": "carbonara"
+}
