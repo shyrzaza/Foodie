@@ -1,0 +1,24 @@
+{
+  "name": "One Pot Paccheri in Pesto Creme Soße",
+  "ingredients": [
+    "Vorgekochte Paccheri - 400g",
+    "Babyspinat - 50g",
+    "Karotte - 1",
+    "Schalotte - 1",
+    "Knoblauch - 1",
+    "Frischecreme - 100g",
+    "Geriebener Hartkäse (italienische Art) - 20g",
+    "Tomatenpesto - 50g",
+    "Basilikum - 10g"
+  ],
+  "instructions": [
+    "Karotte schälen und Schalotte würfeln. Knoblauch hacken.", 
+    "In einem großen Topf Olivenöl erhitzen. Schalotte und Knoblauch 1-2 Minuten anschwitzen.",
+    "Die geraspelte Karotte in den Topf geben und kurz durchrühren.",
+    "Mit Wasser und Gemüsebrühpulver ablöschen. Frischecreme und Tomatenpesto einrühren und 1-2 Minuten erhitzen.",
+    "Basilikum in Streifen schneiden.",
+    "Babyspinat und Paccheri unter die Soße heben und weitere 1 Minute einköcheln lassen. Mit Salz und Pfeffer abschmecken.",
+    "Paccheri auf Teller verteilen, etwas Olivenöl darüberträufeln und mit Basilikum und geriebenem Hartkäse toppen."
+  ],
+  "id": "one-pot-paccheri-pesto-creme"
+}

@@ -2,9 +2,11 @@ import React from "react";
 
 interface ShoppingListProps {
   recipes: { name: string; ingredients: string[] }[];
+  onReset?: () => void;
+  onShoppingDone?: () => void;
 }
 
-const ShoppingList: React.FC<ShoppingListProps> = ({ recipes }) => {
+const ShoppingList: React.FC<ShoppingListProps> = ({ recipes, onReset, onShoppingDone }) => {
   // Flatten all ingredients and allow duplicates
   const allIngredients = recipes.flatMap(r => r.ingredients);
 
@@ -22,6 +24,14 @@ const ShoppingList: React.FC<ShoppingListProps> = ({ recipes }) => {
           <li key={idx}>{recipe.name}</li>
         ))}
       </ul>
+      <div>
+        {onShoppingDone && (
+          <button onClick={onShoppingDone}>Shopping Done</button>
+        )}
+        {onReset && (
+          <button onClick={onReset}>Start Over</button>
+        )}
+      </div>
     </div>
   );
 };
